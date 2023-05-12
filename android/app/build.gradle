@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.myapp"
+    namespace "com.locumbay"
     defaultConfig {
-        applicationId "com.myapp"
+        applicationId "com.locumbay"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

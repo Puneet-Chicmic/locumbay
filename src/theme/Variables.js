@@ -1,22 +1,34 @@
-/**
- * This file contains the application's variables.
- *
- * Define color, sizes, etc. here instead of duplicating them throughout the components.
- * That allows to change them more easily later on.
- */
-/**
- * Colors
- */
+export const FONT_FAMILY={
+    BOLD:"manrope-bold",
+    EXTRABOLD:"manrope-extrabold",
+    LIGHT:"manrope-light",
+    MEDIUM:"manrope-medium",
+    REGULAR:'manrope-regular',
+    SEMIBOLD:"manrope-semibold",
+    THIN:'manrope-thin'
+}
+export const COLORS={
+    PRIMARY: '#104651',
+    PRIMARY_FADED:'#10465180',
+    WHITE: '#ffffff',
+    WARNING:'#fe5253',
+}
+
+
+
+
+//Boilerplate code
+
 export const Colors = {
-    // Example.tsx colors:
     transparent: 'rgba(0,0,0,0)',
     inputBackground: '#FFFFFF',
     white: '#ffffff',
     text: '#212529',
-    primary: '#E14032',
+    primary: '#104651',
     success: '#28a745',
     error: '#dc3545',
 };
+
 export const NavigationColors = {
     primary: Colors.primary,
 };
@@ -47,4 +59,5 @@ export default {
     NavigationColors,
     FontSize,
     MetricsSizes,
+    COLORS
 };

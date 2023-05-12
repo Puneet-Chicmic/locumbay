@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import { store, persistor } from './store';
 import ApplicationNavigator from './navigators/Application';
+import FlashMessage from "react-native-flash-message";
 import './translations';
 const App = () => (<Provider store={store}>
     {/**
@@ -13,8 +14,10 @@ const App = () => (<Provider store={store}>
      * for example `loading={<SplashScreen />}`.
      * @see https://github.com/rt2zz/redux-persist/blob/master/docs/PersistGate.md
      */}
+     
     <PersistGate loading={null} persistor={persistor}>
       <ApplicationNavigator />
+      <FlashMessage position="top" />
     </PersistGate>
   </Provider>);
 export default App;

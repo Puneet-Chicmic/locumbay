@@ -6,6 +6,9 @@ import { Startup } from '../screens';
 import { useTheme } from '../hooks';
 import MainNavigator from './Main';
 import { useFlipper } from '@react-navigation/devtools';
+import AuthNavigator from './AuthNavigator';
+import AppNavigator from './AppNavigator'
+import { useSelector } from 'react-redux';
 const Stack = createStackNavigator();
 // @refresh reset
 const ApplicationNavigator = () => {
@@ -13,14 +16,18 @@ const ApplicationNavigator = () => {
     const { colors } = NavigationTheme;
     const navigationRef = useNavigationContainerRef();
     useFlipper(navigationRef);
-    return (<SafeAreaView style={[Layout.fill, { backgroundColor: colors.card }]}>
-      <NavigationContainer theme={NavigationTheme} ref={navigationRef}>
+    const authToken = useSelector(state => state?.common?.authToken)
+    return (
+    <SafeAreaView style={[Layout.fill, { backgroundColor: colors.card }]}>
+      <NavigationContainer 
+      theme={NavigationTheme}
+       ref={navigationRef}
+       >
         <StatusBar barStyle={darkMode ? 'light-content' : 'dark-content'}/>
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="Startup" component={Startup}/>
-          <Stack.Screen name="Main" component={MainNavigator}/>
-        </Stack.Navigator>
+        {(authToken) ? <AppNavigator /> : <AuthNavigator/>}
+        
       </NavigationContainer>
-    </SafeAreaView>);
+    </SafeAreaView>
+    );
 };
 export default ApplicationNavigator;

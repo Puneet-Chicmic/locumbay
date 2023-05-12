@@ -3,3 +3,7 @@ export default function ({}) {
         logo: require('./assets/images/TOM.png'),
     };
 }
+
+export const IMAGES={
+    LOCUMBAY_LOGO:require('../Assets/images/locumbayLogo.png')
+}

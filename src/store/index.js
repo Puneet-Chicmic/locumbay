@@ -4,8 +4,10 @@ import { persistReducer, persistStore, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, 
 import { MMKV } from 'react-native-mmkv';
 import { api } from '../services/api';
 import theme from './theme';
+import common from './common'
 const reducers = combineReducers({
     theme,
+    common,
     [api.reducerPath]: api.reducer,
 });
 const storage = new MMKV();
