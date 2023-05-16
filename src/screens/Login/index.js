@@ -10,7 +10,7 @@ import { useLoginMutation } from '../../services/modules/login'
 import { showMessage, hideMessage } from "react-native-flash-message";
 import CustomLoader from '../../components/CustomLoader'
 import { useDispatch } from 'react-redux'
-import { updateToken } from '../../store/common'
+import { updateToken, updateUserData } from '../../store/common'
 import { useNavigation } from '@react-navigation/native'
 
 const Login = () => {
@@ -39,7 +39,6 @@ const Login = () => {
     let loginData = await login({
       email:email,
       password:password,
-      is_staff:1
     })
     if(loginData?.error){
       if(loginData?.error?.status===400){
@@ -55,6 +54,7 @@ const Login = () => {
       }
     }else{
       dispatch(updateToken({token:loginData?.data?.token}))
+      dispatch(updateUserData(loginData?.data?.data))
       showMessage({
         message: loginData?.data?.message,
         type: 'success',
@@ -78,7 +78,7 @@ const Login = () => {
       />
 
       <View>
-      <Text style={styles.loginText} >{STRING.ADMIN_LOGIN}</Text>
+      <Text style={styles.loginText} >{STRING.LOGIN}</Text>
       </View>
 
       <CustomTextInput
