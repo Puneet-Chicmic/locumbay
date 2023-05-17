@@ -13,6 +13,7 @@ import {
 import { ICONS } from '../../theme/Icon'
 import { styles } from './styles'
 import { COLORS, FONT_FAMILY } from '../../theme/Variables'
+import { STRING } from '../../theme/Constants'
   
   const W = Dimensions.get('window').width
   const H = Dimensions.get('window').height
@@ -23,6 +24,12 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
     iconName,
     secureIcon,
     onChange=()=>{},
+    disabled,
+    numericKeyboard,
+
+    dob,
+    dobValue,
+    dobClick,
 
     maxLength,
     searchIcon,
@@ -34,7 +41,7 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
     multiline,
     textAlignVertical,
     warningText,
-    warningVisible=false
+    warningVisible=false,
   }) => {
     const [eyeToggle,setEyeToggle]=useState(true)
     return (
@@ -42,17 +49,27 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
         {/* ---------------------------------------Heading---------------------------------------------- */}
         {heading &&<Text style={styles.text}>{heading}</Text>}
 
-        {/* ---------------------------------------Text Input View---------------------------------------------- */}
+        {/* ---------------------------------------Main Container---------------------------------------------- */}
 
       <View
         style={[
           styles.subCtr,
+          disabled && styles.disabledCtr ,
           InputStyle,
         ]}
       >
+        {/* --------------------------------------- DOB ---------------------------------------------- */}
+        {dob ?
+        <TouchableOpacity onPress={dobClick} style={styles.dobBtn} >
+          <Text style={styles.dobText} >{!!dobValue?dobValue:STRING.PLACEHOLDER.DEFAULT_DATE}</Text>
+          {ICONS.CALENDAR(20,20)}
+        </TouchableOpacity>
+        :
+        
         <View
           style={styles.textinputCtr}
         >
+        {/* ---------------------------------------Text Input View---------------------------------------------- */}
           {searchIcon &&
             (
                isSearchLoading ? (
@@ -82,10 +99,12 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
             numberOfLines={numberOfLines}
             textAlignVertical={textAlignVertical}
             maxLength={maxLength}
+            editable={!disabled}
 
             secureTextEntry={secureIcon?eyeToggle:false}
+            keyboardType={numericKeyboard ? "number-pad" : "default" }
           />
-        </View>
+        </View>}
         <View>
           {icon && (
             <TouchableOpacity

@@ -10,6 +10,7 @@ export const FONT_FAMILY={
 export const COLORS={
     PRIMARY: '#104651',
     PRIMARY_FADED:'#10465180',
+    PRIMARY_DARK:"#05313A",
     SECONDARY:"#ECF5F6",
     WHITE: '#ffffff',
     WARNING:'#fe5253',

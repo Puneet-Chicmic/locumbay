@@ -5,6 +5,9 @@ import MAIL from '@/Assets/svg/mail.svg'
 import OPEN_EYE from '@/Assets/svg/openEye.svg'
 import EDIT_PROFILE from '@/Assets/svg/editProfile.svg'
 import GREEN_TICK from '@/Assets/svg/greenTick.svg'
+import IMAGE_UPLOAD from '@/Assets/svg/imageUpload.svg'
+import CALENDAR from '@/Assets/svg/calendar.svg'
+
 
 
 
@@ -26,6 +29,7 @@ const iconStyle = (
     OPEN_EYE: (...params) => <OPEN_EYE {...iconStyle(...params)} />,
     EDIT_PROFILE: (...params) => <EDIT_PROFILE {...iconStyle(...params)} />,
     GREEN_TICK: (...params) => <GREEN_TICK {...iconStyle(...params)} />,
-
+    IMAGE_UPLOAD: (...params) => <IMAGE_UPLOAD {...iconStyle(...params)} />,
+    CALENDAR: (...params) => <CALENDAR {...iconStyle(...params)} />,
     
 }

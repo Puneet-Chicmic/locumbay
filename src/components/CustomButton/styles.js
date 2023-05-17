@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
       },
       textStyle: {
         fontFamily: FONT_FAMILY.SEMIBOLD,
-        fontSize: RFValue(18),
+        fontSize: RFValue(17),
         color:COLORS.WHITE
       },
 })

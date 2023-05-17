@@ -4,6 +4,7 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 import { styles } from './styles'
 import CustomHeader from '../../components/CustomHeader'
 import { STRING } from '../../theme/Constants'
+import EditProfileTopBarNavigator from '../../navigators/EditProfileTopBarNavigator'
 
 
 
@@ -13,8 +14,8 @@ const EditProfile = () => {
     <KeyboardAwareScrollView style={styles.mainCtr} >
       <View style={styles.subCtr} >
       <CustomHeader heading={STRING.MANAGE_PROFILE} />
-
-      
+    {/* =================================== Top Bar Navigation ============================================ */}
+    <EditProfileTopBarNavigator/>
 
       </View>
 

@@ -5,16 +5,11 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
 
 export const styles = StyleSheet.create({
     mainCtr:{
-        flex:1,
-        backgroundColor:COLORS.WHITE
-    },
-    subCtr:{
-        // borderWidth:3,
-        flex:1,
-        width:wp(96),
-        alignSelf:"center",
-        paddingVertical:RFValue(6),
-        backgroundColor:COLORS.WHITE
-        
-    },
+        alignItems:"center",
+        justifyContent:"center",
+        width:wp(100),
+        height:hp(100),
+        opacity:1,
+        backgroundColor:"#00000040"
+    }
 })

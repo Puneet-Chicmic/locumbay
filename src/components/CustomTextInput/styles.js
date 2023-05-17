@@ -5,7 +5,7 @@ import { COLORS, FONT_FAMILY } from '../../theme/Variables'
 
 export const styles = StyleSheet.create({
     text:{
-        fontSize:RFValue(17),
+        fontSize:RFValue(15),
         fontFamily:FONT_FAMILY.MEDIUM,
         marginBottom:RFValue(10),
         color:COLORS.PRIMARY
@@ -14,17 +14,20 @@ export const styles = StyleSheet.create({
     subCtr:          {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#ECF5F6',
+        backgroundColor: COLORS.SECONDARY,
         borderRadius: RFValue(8),
         justifyContent: 'flex-start',
         borderWidth:RFValue(1),
-        borderColor:"#E8E8E8",
+        borderColor:COLORS.BORDER_COLOR,
         height:RFValue(45)
+      },
+      disabledCtr:{
+        backgroundColor:COLORS.BORDER_COLOR
       },
       textinputCtr:{
         width: '88%',
         display: 'flex',
-        flexDirection: Platform.OS === 'ios' && desc ? '' : 'row',
+        flexDirection:'row',
         alignItems: 'center',
         alignSelf: 'center',
       },
@@ -38,7 +41,7 @@ export const styles = StyleSheet.create({
         textAlignVertical: 'top',
         height: '100%',
         color: 'black',
-        fontSize: RFValue(16),
+        fontSize: RFValue(14),
         fontFamily: FONT_FAMILY.MEDIUM,
         textAlign: 'left',
         marginLeft: 5,
@@ -49,6 +52,21 @@ export const styles = StyleSheet.create({
         fontFamily:FONT_FAMILY.REGULAR,
         color:COLORS.WARNING,
         padding:RFValue(2)
+      },
+
+      dobBtn:{
+        width:"92%",
+        height:"100%",
+        alignItems:"center",
+        justifyContent:"space-between",
+        flexDirection:"row",
+        alignSelf:"center",
+        marginLeft:RFValue(10)
+      },
+      dobText:{
+        color:COLORS.PRIMARY,
+        fontFamily:FONT_FAMILY.REGULAR,
+        fontSize:RFValue(12)
       }
 
 

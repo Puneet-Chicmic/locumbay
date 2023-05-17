@@ -12,15 +12,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-locumbay-locumbayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-locumbay-locumbayTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		52B9347660C94B0197DA5CDD /* manrope-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCC3F1E32F294AFBA5B7536A /* manrope-bold.otf */; };
 		179BCC60640440FE96180658 /* manrope-extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FEE4E1D15C4D4A5DA293961F /* manrope-extrabold.otf */; };
 		1ECC34F626D64A61A24E457D /* manrope-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A965CA5874E4228B47EA8A2 /* manrope-light.otf */; };
-		C485D599B76542529136AB77 /* manrope-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDF955E2E44D82A86B8976 /* manrope-medium.otf */; };
-		EFA0D21BE5354DD0A6ED456F /* manrope-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2511298B7184482B56BD1A4 /* manrope-regular.otf */; };
-		E69F0983D5804F03ABEDA24D /* manrope-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B624DEFE674C2A8EE7368E /* manrope-semibold.otf */; };
 		30E71903AC104077B826EB68 /* manrope-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAD7855FB53248DB97A5DC92 /* manrope-thin.otf */; };
+		52B9347660C94B0197DA5CDD /* manrope-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCC3F1E32F294AFBA5B7536A /* manrope-bold.otf */; };
+		7699B88040F8A987B510C191 /* libPods-locumbay-locumbayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-locumbay-locumbayTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C485D599B76542529136AB77 /* manrope-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3EBDF955E2E44D82A86B8976 /* manrope-medium.otf */; };
+		E69F0983D5804F03ABEDA24D /* manrope-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80B624DEFE674C2A8EE7368E /* manrope-semibold.otf */; };
+		EFA0D21BE5354DD0A6ED456F /* manrope-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2511298B7184482B56BD1A4 /* manrope-regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,35 +29,35 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "locumbay";
+			remoteInfo = locumbay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* locumbayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "locumbayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* locumbayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locumbayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* locumbayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "locumbayTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* locumbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "locumbay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "locumbay/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "locumbay/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "locumbay/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "locumbay/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "locumbay/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* locumbayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locumbayTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* locumbay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locumbay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = locumbay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = locumbay/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = locumbay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = locumbay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = locumbay/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-locumbay-locumbayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-locumbay-locumbayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-locumbay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locumbay.debug.xcconfig"; path = "Target Support Files/Pods-locumbay/Pods-locumbay.debug.xcconfig"; sourceTree = "<group>"; };
+		3EBDF955E2E44D82A86B8976 /* manrope-medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-medium.otf"; path = "../src/Assets/fonts/manrope-medium.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-locumbay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locumbay.release.xcconfig"; path = "Target Support Files/Pods-locumbay/Pods-locumbay.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-locumbay-locumbayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locumbay-locumbayTests.debug.xcconfig"; path = "Target Support Files/Pods-locumbay-locumbayTests/Pods-locumbay-locumbayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-locumbay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-locumbay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "locumbay/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		80B624DEFE674C2A8EE7368E /* manrope-semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-semibold.otf"; path = "../src/Assets/fonts/manrope-semibold.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = locumbay/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-locumbay-locumbayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locumbay-locumbayTests.release.xcconfig"; path = "Target Support Files/Pods-locumbay-locumbayTests/Pods-locumbay-locumbayTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A965CA5874E4228B47EA8A2 /* manrope-light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-light.otf"; path = "../src/Assets/fonts/manrope-light.otf"; sourceTree = "<group>"; };
+		B2511298B7184482B56BD1A4 /* manrope-regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-regular.otf"; path = "../src/Assets/fonts/manrope-regular.otf"; sourceTree = "<group>"; };
+		DAD7855FB53248DB97A5DC92 /* manrope-thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-thin.otf"; path = "../src/Assets/fonts/manrope-thin.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FCC3F1E32F294AFBA5B7536A /* manrope-bold.otf */ = {isa = PBXFileReference; name = "manrope-bold.otf"; path = "../src/Assets/fonts/manrope-bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FEE4E1D15C4D4A5DA293961F /* manrope-extrabold.otf */ = {isa = PBXFileReference; name = "manrope-extrabold.otf"; path = "../src/Assets/fonts/manrope-extrabold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A965CA5874E4228B47EA8A2 /* manrope-light.otf */ = {isa = PBXFileReference; name = "manrope-light.otf"; path = "../src/Assets/fonts/manrope-light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3EBDF955E2E44D82A86B8976 /* manrope-medium.otf */ = {isa = PBXFileReference; name = "manrope-medium.otf"; path = "../src/Assets/fonts/manrope-medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2511298B7184482B56BD1A4 /* manrope-regular.otf */ = {isa = PBXFileReference; name = "manrope-regular.otf"; path = "../src/Assets/fonts/manrope-regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		80B624DEFE674C2A8EE7368E /* manrope-semibold.otf */ = {isa = PBXFileReference; name = "manrope-semibold.otf"; path = "../src/Assets/fonts/manrope-semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DAD7855FB53248DB97A5DC92 /* manrope-thin.otf */ = {isa = PBXFileReference; name = "manrope-thin.otf"; path = "../src/Assets/fonts/manrope-thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCC3F1E32F294AFBA5B7536A /* manrope-bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-bold.otf"; path = "../src/Assets/fonts/manrope-bold.otf"; sourceTree = "<group>"; };
+		FEE4E1D15C4D4A5DA293961F /* manrope-extrabold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "manrope-extrabold.otf"; path = "../src/Assets/fonts/manrope-extrabold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				00E356F21AD99517003FC87E /* locumbayTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "locumbayTests";
+			path = locumbayTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -107,7 +107,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "locumbay";
+			name = locumbay;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -152,19 +152,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-locumbay.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-locumbay.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-locumbay-locumbayTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-locumbay-locumbayTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		B239F40C91AA4CBBB40602B5 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				FCC3F1E32F294AFBA5B7536A /* manrope-bold.otf */,
 				FEE4E1D15C4D4A5DA293961F /* manrope-extrabold.otf */,
@@ -175,8 +164,19 @@
 				DAD7855FB53248DB97A5DC92 /* manrope-thin.otf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-locumbay.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-locumbay.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-locumbay-locumbayTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-locumbay-locumbayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -197,8 +197,7 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = "locumbayTests";
-			productname = "locumbayTests";
+			name = locumbayTests;
 			productReference = 00E356EE1AD99517003FC87E /* locumbayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -219,8 +218,8 @@
 			);
 			dependencies = (
 			);
-			name = "locumbay";
-			productName = "locumbay";
+			name = locumbay;
+			productName = locumbay;
 			productReference = 13B07F961A680F5B00A75B9A /* locumbay.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -474,7 +473,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "locumbayTests/Info.plist";
+				INFOPLIST_FILE = locumbayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,7 +485,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.locumbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.locumbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locumbay.app/locumbay";
 			};
@@ -498,7 +497,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "locumbayTests/Info.plist";
+				INFOPLIST_FILE = locumbayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +509,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.locumbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.locumbay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/locumbay.app/locumbay";
 			};
@@ -524,8 +523,8 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "locumbay/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "locumbay";
+				INFOPLIST_FILE = locumbay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = locumbay;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,8 +535,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.locumbay";
-				PRODUCT_NAME = "locumbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.locumbay;
+				PRODUCT_NAME = locumbay;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -551,8 +550,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = "locumbay/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "locumbay";
+				INFOPLIST_FILE = locumbay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = locumbay;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,8 +562,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.locumbay";
-				PRODUCT_NAME = "locumbay";
+				PRODUCT_BUNDLE_IDENTIFIER = com.locumbay;
+				PRODUCT_NAME = locumbay;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
