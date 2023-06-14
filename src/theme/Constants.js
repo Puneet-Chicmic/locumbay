@@ -106,3 +106,7 @@ export const REGISTRATION_FIELD_NUMBER={
     ADDRESS:9,
     POST_CODE:10
 }
+
+export const DATABASE={
+    PROFILE:"profile"
+}
